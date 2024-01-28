@@ -29,7 +29,7 @@ if(scanf("%d %d", &a, &b)==2){//checking that both of the integers received prop
         for (int h=a; h<=b;h++){
             int stro = isStrong(h);
             if(stro == 1) printf(" %d", h);
-        } //printf ("\n");
+        }printf ("\n");
     }
 
     if (b<a){
